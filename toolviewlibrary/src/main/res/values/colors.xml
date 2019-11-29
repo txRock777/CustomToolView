@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="c_4a4a4a">#4a4a4a</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="lineColor_click">#0091FF</color>
+    <color name="lineColor_unclick">#696565</color>
+    <color name="c_0081FF">#0081FF</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_AFAFAF">#AFAFAF</color>
+    <color name="c_696565">#696565</color>
+
+    <color name="divide">#e6ebf0</color>
+    <color name="main_bg">#F3F3F3</color>
+    <color name="mc_txt_gray_bg">#a6a6a6</color>
+    <color name="ripple_color">#19333333</color>
+</resources>

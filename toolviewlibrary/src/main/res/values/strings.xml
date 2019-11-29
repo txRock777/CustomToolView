@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomEditLibrary</string>
+    <string name="comfirm_pay">确认\n收款</string>
+    <string name="forget_password_text_code">验证码</string>
+    <string name="code_text_hint">输入你收到的验证码</string>
+    <string name="login_text_name_hint">请输入用户名</string>
+    <string name="login_text_psd_hint">请输入密码</string>
+</resources>

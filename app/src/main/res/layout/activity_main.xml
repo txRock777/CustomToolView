@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <com.tx.toolview.edit.CustomFrameLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:frame_et_hint="@string/login_text_name_hint"
+        app:frame_et_size="15"
+        app:frame_et_hint_color="@color/c_AFAFAF"
+        app:frame_et_textColor="@color/c_696565"
+        app:frame_is_code="false"
+        app:frame_is_hint="false"
+        app:edit_ic_delete="@mipmap/delete_selector"
+        app:edit_delete_x="0"
+        app:edit_delete_y="0"
+        app:edit_is_left="true"
+        app:edit_delete_width="50"
+        app:edit_delete_height="50"
+        />
+
+    <com.tx.toolview.edit.CustomFrameLayout
+        android:id="@+id/psd"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:frame_et_hint="@string/login_text_psd_hint"
+        app:frame_et_size="15"
+        app:frame_et_hint_color="@color/c_AFAFAF"
+        app:frame_et_textColor="@color/c_696565"
+        app:frame_is_code="false"
+        app:frame_is_hint="false" />
+
+
+    <com.tx.toolview.edit.CustomFrameLayout
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:frame_et_size="15"
+        app:frame_et_hint_color="@color/c_AFAFAF"
+        app:frame_et_textColor="@color/c_696565"
+        app:frame_et_hint="请输入您验证码"
+        app:frame_et_maxLines="6"
+        app:frame_tx_code_background="@drawable/verification_code_button_bg"
+        app:frame_tx_code_size="15"
+        app:frame_tx_code_textColor="@color/c_0081FF"
+        app:frame_tx_hint_size="14"
+        app:frame_tx_hint_text="@string/forget_password_text_code"
+        app:frame_tx_hint_textColor="@color/c_AFAFAF"
+        app:frame_is_hint="true"
+        app:frame_is_code="true"
+        />
+
+    <com.tx.toolview.text.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="0"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="个人中心" />
+
+    <com.tx.toolview.text.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="查看收藏过的书签"
+        app:title_text="我的收藏" />
+
+    <com.tx.toolview.text.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="我关注过的人在这里"
+        app:title_text="我的关注" />
+
+    <com.tx.toolview.text.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="2"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="有什么问题点这里"
+        app:title_text="我的客服" />
+
+    <com.tx.toolview.text.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="设置" />
+    
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:text="提交"
+        />
+</LinearLayout>
